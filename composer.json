@@ -23,11 +23,5 @@
             ]
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/zhoukun1/my-package.git"
-        }
-    ],
     "minimum-stability": "stable"
 }
