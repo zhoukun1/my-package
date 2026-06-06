@@ -1,5 +1,5 @@
 {
-    "name": "zhou/my-package",
+    "name": "zhouda/my-package",
     "description": "hello world",
     "type": "library",
     "license": "MIT",
@@ -14,8 +14,7 @@
         }
     ],
     "require": {
-        "php": ">= 8.2",
-        "zhoukun1/my-package": "dev-main"
+        "php": ">= 8.2"
     },
     "extra": {
         "laravel": {
@@ -29,5 +28,6 @@
             "type": "vcs",
             "url": "https://github.com/zhoukun1/my-package.git"
         }
-    ]
+    ],
+    "minimum-stability": "stable"
 }
