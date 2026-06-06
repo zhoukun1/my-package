@@ -1,0 +1,33 @@
+{
+    "name": "zhou/my-package",
+    "description": "hello world",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zhou\\MyPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zhou"
+        }
+    ],
+    "require": {
+        "php": ">= 8.2",
+        "zhoukun1/my-package": "dev-main"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhou\\MyPackage\\MyPackageServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/zhoukun1/my-package.git"
+        }
+    ]
+}
